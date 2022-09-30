@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#title {
+    color: blue;
+}
+
+.subtitle {
+    color: green;
+}
+
+.text-xl {
+    font-size: 60px;
+}
+
+h1 {
+    border: 8px solid red;
+    padding: 32px 16px 8px 4px;
+    color: purple;
+}
+
+#main {
+    color: yellow;
+}
+
+.sub {
+    color: brown;
+}
+
+.div1,
+.div2 {
+    color: blue;
+}
+
+.container .sub {
+    color: red;
+}
