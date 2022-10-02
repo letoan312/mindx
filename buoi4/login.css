@@ -52,9 +52,14 @@ input[type="submit"] {
   
 a {
     color: #dfdfe2;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 ::placeholder {
     font-size: 16px;
 }
-    
