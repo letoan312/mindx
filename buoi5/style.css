@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.top-bar,
+.menu {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    display: flex;
+}
+
+.ban-info {
+    width: 40%;
+    background-color: greenyellow;
+    flex-direction: column;
+}
+
+
+.ban-title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+}
+
+.black {
+    color: black;
+}
+
+.blue {
+    color: blue;
+}
+
+.txt-16 {
+    font-size: 16px;
+    line-height: 29px;
+}
+
+.txt-14 {
+    font-size: 14px;
+    line-height: 29px;
+}
+
+.ban-desc {
+    margin: 20px 0;
+}
+
+.black,
+.blue,
+.ban-desc {
+    background-color: transparent;
+}
+
+.ban-act {
+    display: flex;
+}
+
+.ban-button {
+    background-color: #ff7b29;
+    color: white;
+    width: 140px;
+    height: 50px;
+    border-radius: 15px;
+    line-height: 50px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #ff7b29;
+}
+
+.ban-button:hover {
+    background-color: transparent;
+    color: #ff7b29;
+
+}
+
+.ban-button-txt {
+    color: #ff7b29;
+}
+
+.ban-img {
+    width: 40%;
+    background-color: rebeccapurple;
+}
+
+.ban-more {
+    height: 100%;
+    width: 20%;
+    min-width: 200px;
+    background-color: aqua;
+}
+
+.banner {
+    height: calc(100vh - 240);
+}
