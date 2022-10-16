@@ -71,3 +71,5 @@ if (b < 1) {
 } else {
     console.log("a>=20");
 }
+
+console.log(Math.floor(thuong));
