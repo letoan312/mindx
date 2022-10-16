@@ -102,7 +102,7 @@ li {
 }
 
 .tab-txt {
-    color: #5cb85c50;
+    color: #5cb85c75;
 }
 
 .tab-txt:hover {
@@ -210,7 +210,8 @@ li {
 }
 
 .tag-pop-head{
-
+    text-align: right;
+    color: #5cb85c;
 }
 .tag-pop-tags{
 

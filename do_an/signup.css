@@ -132,14 +132,11 @@ input {
     display: inline-block;
     margin: 0 auto;
     text-align: left;
-    width: 39%;
 }
 
 .forgot {
     display: inline-block;
     margin: 0 auto;
-    text-align: right;
-    width: 49%;
     font-weight: 500;
     font-size: 16px;
     line-height: 130%;
