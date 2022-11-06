@@ -57,7 +57,7 @@ const sports = [
         like: 10
     },
 ]
-// dung array method de tim 
+// dung array method de tim
 // cac mon the thao cos like > 5
 // Kỳ vọng
 
@@ -69,6 +69,6 @@ function getMostFavoriteSport() {
     }
 }
 
-console.log(getMostFavoriteSport(sports)) 
+console.log(getMostFavoriteSport(sports))
 
 // Output: [{ name: 'Bóng rổ, like: 6 }, { name: 'Bóng đá, like: 10 }]
