@@ -10,7 +10,7 @@ body{
     background: #E6EAF8;
 }
 .contents{
-    margin: 5vw;
+    margin: 7vw;
     background: #FFFFFF;
     border-radius: 16px;
 }
@@ -187,6 +187,12 @@ body{
     background: #FFFFFF;
     border: 1px solid #BFC8E6;
     border-radius: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #516FD5;
 }
 .shadow{
     background: #BCC6E7;
