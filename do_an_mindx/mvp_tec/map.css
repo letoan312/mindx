@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #5d9773;
+    overflow: hidden;
+}
+
+header {
+    background-color: white;
+    padding: 0.5rem 10vw;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100vw;
+}
+
+.header-under {
+    height: 51.2px;
+}
+
+.title{
+    color: #5d9773;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: auto 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    margin: 0 0.5rem;
+    padding: 0.5rem 0;
+    color: black;
+}
+
+.nav-txt:hover {
+    color: #5d9773;
+    font-weight: 600;
+}
+
+.nav-txt-slt {
+    color: #5d9773;
+    font-weight: 600;
+}
+
+.content{
+    width: 100vw;
+    height: calc(100vh - 51.2px);
+}
+
+.mcq {
+    position: fixed;
+    top: 70px;
+    left: 10px;
+    width: 20vw;
+    height: 87vh;
+    max-width: 500px;
+    min-width: 100px;
+    margin: 0;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #5d9773;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+.mcq-tlt {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.qst {
+    color: white;
+}
+
+.map {
+    width: 100%;
+    height: 100%;
+}
+
+.schedule {
+    position: fixed;
+    top: 70px;
+    right: 10px;
+    width: 20vw;
+    height: 67vh;
+    max-width: 500px;
+    min-width: 100px;
+    margin: 0;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #5d9773;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    overflow-y: scroll;
+}
+
+.scd-tlt {
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.scd-tab {
+
+}
+
+.scd-date {
+    width: 90%;
+    max-width: 500px;
+    min-width: 100px;
+    margin: 0 auto 20px;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.scd-date:last-of-type {
+    margin: 0 auto;
+}
+
+.date {
+    color: #5d9773;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.scd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.scd-plc {
+
+}
+
+.scd-del {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.scd-del:hover {
+    background-color: rgba(128, 128, 128, 0.1);
+    cursor: pointer;
+}
+
+.scd-info {
+    margin-bottom: 5px;
+}
+
+input:last-of-type {
+    position: fixed;
+    top: calc(70px + 67vh + 30px);
+    right: 10px;
+    width: 20vw;
+    margin: 0;
+    border-radius: 16px;
+    padding: 20px;
+    background-color: #5d9773;
+    border: 1px solid #5d9773;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #5d9773;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #468e46;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #2f602f;
+} */
